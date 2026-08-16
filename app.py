@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="Mental Health Predictor", layout="centered")
 
 # Set the URL for your FastAPI backend
-FASTAPI_URL = "https://mental-health-model-db6p.onrender.com"
+FASTAPI_URL = "https://mental-health-model-db6p.onrender.com/predict"
 
 st.title("Mental Health Prediction Model")
 st.markdown("Enter the user metrics below to send a prediction request to the FastAPI backend.")
